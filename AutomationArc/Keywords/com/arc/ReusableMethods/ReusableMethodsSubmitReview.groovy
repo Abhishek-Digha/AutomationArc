@@ -712,7 +712,7 @@ public class ReusableMethodsSubmitReview extends BaseClass{
 		//WebUI.click(findTestObject('Object Repository/SubmitReview/clickOnSideBar'))
 		WebUI.delay(5)
 		WebUI.click(findTestObject('SubmitReview/a_ Review'))
-		WebUI.refresh()
+		//WebUI.refresh()
 		WebUI.waitForAngularLoad(GlobalVariable.minAngularWait)
 		WebUI.waitForPageLoad(GlobalVariable.minAngularWait)
 	
