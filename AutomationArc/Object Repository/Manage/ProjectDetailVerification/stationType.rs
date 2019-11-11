@@ -7,10 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>#content > div.static_info.ng-scope > div:nth-child(1) > div.info.ng-scope > div.value.ng-binding</value>
+         <value>//input[@ng-model = 'projectInfo.station_type']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

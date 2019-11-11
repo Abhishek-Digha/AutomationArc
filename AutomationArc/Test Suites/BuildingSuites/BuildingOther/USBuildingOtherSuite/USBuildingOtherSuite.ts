@@ -41,6 +41,12 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>0b77792e-d044-4623-b218-d6f1384594ed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Buildings/MyBuildings/BuildingOther/PaymentByCreditCardTest</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>fb843d1a-b6a2-4c69-a8e8-ef520f222b4a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -51,6 +57,48 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Buildings/MyBuildings/BuildingOther/UIScoreFieldIndividualTest</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>23f7b380-e993-4fd7-a0b8-0b16af54e891</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Buildings/MyBuildings/BuildingOther/UIFieldTotalScoreTest</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8e99872f-70b4-48a6-95bd-68df8813468d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Buildings/MyBuildings/BuildingOther/UIScoreWithoutDataTest</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7ca9d707-6d4c-45c1-bef7-640c3a867e09</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Buildings/MyBuildings/BuildingOther/NavigationTotalScoreToAnalyticsTest</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cdf7a5da-c774-4a3c-bb4e-918935d5b268</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Buildings/MyBuildings/BuildingOther/NavigationIndividualRaceTrackToAnalyticsTest</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>17986020-f79e-43bb-aaa2-0f804ea4b5ad</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Buildings/MyBuildings/BuildingOther/AddMeasurablToTheProjectTest</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f83365b7-e6e0-452d-b087-079e8bddc29f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Buildings/MyBuildings/BuildingOther/VerifyThePriceTextOnTheMeasurablPaymentPageTest</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7fd019ff-2c4d-4ca9-bdfe-e3002a5bad4a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Buildings/MyBuildings/BuildingOther/PaymentForMeasurableSubscriptionTest</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>bc135ed4-c58a-47fc-8f38-82e03c8f22cf</guid>
@@ -123,6 +171,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Buildings/MyBuildings/BuildingOther/EditEnergyMeterDetailsTest</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b4960022-37e6-4411-8f43-f5a72cc20a7a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Buildings/MyBuildings/BuildingOther/PerformanceCreditBuidlingVisibilityTest</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>73df2861-0801-407a-a24e-8f0d625f41f4</guid>
@@ -215,10 +269,40 @@
       <testCaseId>Test Cases/Buildings/MyBuildings/BuildingOther/VerifyFilterDataInputForWasteReadingTest</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>292358a0-9ad3-4059-8a24-702483d83160</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Buildings/MyBuildings/BuildingOther/VerifyAnalyticsEnergySliderChangesTheScoreTest</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>6b4b3eac-5747-4ec5-9dc0-54b084a055c9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Buildings/MyBuildings/BuildingOther/SubmitSurveyTest</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5fc44e57-88db-4f94-a9fd-fb3b1e35d5fa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Buildings/MyBuildings/BuildingOther/IntegrationTabDetailsVerificationTest</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3b9934a1-a62a-4fec-91e5-5dd057f3dda8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Buildings/MyBuildings/BuildingOther/ChangePaymentMethodMeasurablTest</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7c1576a4-ee2e-49c9-922c-bd0b4bafdd1f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Buildings/MyBuildings/BuildingOther/VerifyBillingDetailsMeasurablTest</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1975d1f8-c8a7-4b94-980f-d9f4a51701bc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Buildings/MyBuildings/BuildingOther/VerifyExportSurveyReportDownloadTest</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a2dae379-a3b6-49e8-a83f-6f2c40440a5b</guid>
@@ -275,6 +359,18 @@
       <testCaseId>Test Cases/Buildings/MyBuildings/BuildingOther/ScoreVersionVerificationTest</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>1f0364b4-101c-4a71-83a0-e96563be85e2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Buildings/MyBuildings/BuildingOther/BillingDateAndStatusTest</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>afceeecb-a655-4a00-9c5c-b120c985064c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Buildings/MyBuildings/BuildingOther/VerifyAndDownloadBillingReceiptTest</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>fb020715-7ce4-440a-b9fa-ddd78c923b24</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -291,6 +387,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Buildings/MyBuildings/BuildingOther/ChangeBuildingSetting_1_17_Test</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>84e5b2fb-db33-41e1-a7dd-931f5d354752</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Buildings/MyBuildings/BuildingOther/CreditActionModuleOtherNoneTest</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>25fe874c-580f-41ed-a3bc-79daee1fbde8</guid>

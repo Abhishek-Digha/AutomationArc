@@ -7,10 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//*[@name=&quot;intentToPrecertify&quot;])[2]</value>
+         <value>//select[@ng-model = 'projectInfo.intentToPrecertify']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

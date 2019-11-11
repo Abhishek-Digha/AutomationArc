@@ -16,8 +16,7 @@ import internal.GlobalVariable
 import io.qameta.allure.Step
 
 public class ReusableMethodsNavigation {
-	
-	WebDriver driver = DriverFactory.getWebDriver()
+	WebDriver driver=DriverFactory.getWebDriver()
 
 	@Keyword
 	public void navigateToBuilding() {
@@ -29,23 +28,33 @@ public class ReusableMethodsNavigation {
 		WebUI.click(findTestObject('Object Repository/Page_Arc dashboard/a_ Buildings'))
 		WebUI.waitForAngularLoad(GlobalVariable.minAngularWait)
 		WebUI.delay(2)
+		WebUI.click(findTestObject('Object Repository/Page_Arc dashboard/a_ My Buildings'))
+		String postNavigationLoginText = WebUI.getText(findTestObject('Object Repository/Page_Arc dashboard/span_My Buildings'))
+		WebUI.verifyMatch(postNavigationLoginText,'My Buildings',true)
 	}
 
 	@Keyword
 	public void clickAddProject() {
+		//WebUI.delay(2)
 		WebUI.waitForAngularLoad(GlobalVariable.avgAngularWait)
-		WebUI.scrollToElement(findTestObject('Object Repository/Arc2.0 Locators/AllProjectDashboard/AddAProjectButton'), 3)
-		WebUI.click(findTestObject('Object Repository/Arc2.0 Locators/AllProjectDashboard/AddAProjectButton'))
+		WebUI.scrollToElement(findTestObject('Object Repository/Add_Project_Details/button_ Add'), 3)
+		WebUI.click(findTestObject('Object Repository/Add_Project_Details/button_ Add'))
 		WebUI.waitForAngularLoad(GlobalVariable.minAngularWait)
-		String postNavigationLoginText = WebUI.getText(findTestObject('Object Repository/Arc2.0 Locators/Add Project Locators/AddAProjectText'))
-		WebUI.verifyMatch(postNavigationLoginText,'Add a Project',true)
+		//WebUI.delay(2)
+		String postNavigationLoginText = WebUI.getText(findTestObject('Object Repository/Add_Project_Details/h1_Project Registration'))
+		WebUI.verifyMatch(postNavigationLoginText,'Project Registration',true)
 	}
 
 	@Keyword
 	public void navigateToCities(){
-		WebUI.waitForPageLoad(GlobalVariable.minAngularWait)
-		WebUI.waitForElementClickable(findTestObject('Object Repository/Arc2.0 Locators/Project Dashboard Sidebar Locators/AllCitiesProjects'),20)
-		WebUI.click(findTestObject('Object Repository/Arc2.0 Locators/Project Dashboard Sidebar Locators/AllCitiesProjects'))
+		WebUI.delay(3)
+		WebUI.navigateToUrl(GlobalVariable.AllProjectUrl)
+		WebUI.delay(3)
+		WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Arc dashboard/a_ My Cities'),20)
+		WebUI.click(findTestObject('Object Repository/Page_Arc dashboard/a_ My Cities'))
+		WebUI.delay(3)
+		String postNavigationLoginText = WebUI.getText(findTestObject('Object Repository/Page_Arc dashboard/span_My Cities'))
+		WebUI.verifyMatch(postNavigationLoginText,'My Cities',false)
 	}
 
 	@Keyword
@@ -61,14 +70,16 @@ public class ReusableMethodsNavigation {
 
 	@Keyword
 	public void navigateToParking(){
-		WebUI.click(findTestObject('Arc2.0 Locators/Navbar Button Locators/ProjectButton'))
-		WebUI.waitForAngularLoad(3)
-		WebUI.waitForElementClickable(findTestObject('Page_Arc dashboard/a_ My Parking'),10)
+		WebUI.delay(3)
+		WebUI.navigateToUrl(GlobalVariable.AllProjectUrl)
+		WebUI.delay(3)
+		WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Arc dashboard/a_ Buildings'),10)
+		WebUI.click(findTestObject('Object Repository/Page_Arc dashboard/a_ Buildings'))
+		WebUI.delay(3)
 		WebUI.click(findTestObject('Page_Arc dashboard/a_ My Parking'))
-		WebUI.waitForAngularLoad(10)
-	
-	//	WebUI.verifyMatch(WebUI.getUrl(), "https://stg-v2.app.arconline.io/app/projects/my-projects/?project-type=parksmart", false)
-	
+		WebUI.delay(4)
+		String postNavigationLoginText = WebUI.getText(findTestObject('Page_Arc dashboard/span_My Parking'))
+		WebUI.verifyMatch(postNavigationLoginText,'My Parking',false)
 	}
 
 
@@ -92,14 +103,18 @@ public class ReusableMethodsNavigation {
 	@Keyword
 	@Step
 	public void navigateToBuildingTransit() {
-		WebUI.waitForAngularLoad(GlobalVariable.minAngularWait)
 		WebUI.navigateToUrl(GlobalVariable.AllProjectUrl)
-		WebUI.waitForAngularLoad(GlobalVariable.minAngularWait)
-		WebUI.waitForElementClickable(findTestObject('Object Repository/Arc2.0 Locators/Project Dashboard Sidebar Locators/AllTransitProjects'), 10)
-		WebUI.waitForAngularLoad(GlobalVariable.minAngularWait)
-		WebUI.click(findTestObject('Object Repository/Arc2.0 Locators/Project Dashboard Sidebar Locators/AllTransitProjects'))
-		WebUI.waitForAngularLoad(GlobalVariable.minAngularWait)
+		WebUI.delay(3)
+		WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Arc dashboard/a_ Buildings'), 10)
+		WebUI.click(findTestObject('Object Repository/Page_Arc dashboard/a_ Buildings'))
 		WebUI.delay(2)
+		WebUI.click(findTestObject('Object Repository/Page_Arc dashboard/a_ My Transit'))
+		//WebUI.click(findTestObject('Object Repository/Page_Arc dashboard/i_fa fa-bars fa-lg'))
+
+		print "Making Slider On"
+		String postNavigationLoginText = WebUI.getText(findTestObject('Object Repository/Page_Arc dashboard/span_My Transit'))
+		WebUI.verifyMatch(postNavigationLoginText,'My Transit',true)
+		WebUI.delay(5)
 	}
 
 	@Keyword
@@ -120,11 +135,11 @@ public class ReusableMethodsNavigation {
 		WebUI.delay(2)
 		WebUI.waitForElementPresent(findTestObject('PerformanceScore/DataInput/TotalScore'), GlobalVariable.minAngularWait)
 		WebUI.waitForElementVisible(findTestObject('PerformanceScore/DataInput/TotalScore'), GlobalVariable.minAngularWait)
+
 		WebUI.waitForElementClickable(findTestObject('DataInput/Survey/div_Transportation Survey'), GlobalVariable.minAngularWait)
 		WebUI.click(findTestObject('DataInput/Survey/div_Transportation Survey'))
 		WebUI.waitForAngularLoad(GlobalVariable.minAngularWait)
 	}
-	
 	@Keyword
 	public void navigateToDataAQI(){
 
@@ -268,15 +283,17 @@ public class ReusableMethodsNavigation {
 		String Logintext = WebUI.getText(findTestObject('Page_Arc dashboard/DashboardPage/NavigationCreditAction/h1_Prerequisites'))
 		WebUI.verifyMatch(Logintext,'Prerequisites', false)
 
-		//WebUI.scrollToElement(findTestObject('Object Repository/BasePoint/a_ Base Points (1)'), 10)
+		WebUI.scrollToElement(findTestObject('Object Repository/BasePoint/a_ Base Points (1)'), 10)
 		WebUI.doubleClick(findTestObject('Object Repository/BasePoint/a_ Base Points (1)'))
 		WebUI.waitForAngularLoad(GlobalVariable.minAngularWait)
 		String basePoint = WebUI.getText(findTestObject('Page_Arc dashboard/DashboardPage/NavigationCreditAction/h1_Base Points'))
 		WebUI.verifyMatch(basePoint,'Base Points', false)
 
-		navigateIntoDataInput()
+		WebUI.click(findTestObject('DataInput/Survey/a_ Data Input'))
 
 		WebUI.waitForAngularLoad(GlobalVariable.minAngularWait)
+		String dataInput1 = WebUI.getText(findTestObject('DataInput/Data/span_Data Input'))
+		WebUI.verifyMatch(dataInput1,'Data Input', false)
 
 		WebUI.waitForElementPresent(findTestObject('Page_Arc dashboard/DashboardPage/NavigationCreditAction/span_Meters  Surveys'), 40)
 		WebUI.waitForElementVisible(findTestObject('Page_Arc dashboard/DashboardPage/NavigationCreditAction/span_Meters  Surveys'), 40)
@@ -397,25 +414,11 @@ public class ReusableMethodsNavigation {
 				WebUI.waitForAngularLoad(GlobalVariable.minAngularWait)
 			}
 		}
-		
-		
-		
 	}
 
 
 	//Individual Section Click operation
 
-	
-	public static void clickOnCreditAction(){
-		if((WebUI.getAttribute(findTestObject('Object Repository/Arc2.0 Locators/Project Navigation Locators/AllActions'), "class", FailureHandling.OPTIONAL).equals("option sidebar-projects-link collapsed"))){
-			println "Scores"
-			WebUI.delay(2)
-			WebUI.click(findTestObject('Object Repository/PerformanceScore/Score/a_ Score'))
-		}
-		
-		
-	}
-	
 
 	public static void  clickScoreLabel(){
 		if((WebUI.getAttribute(findTestObject('Object Repository/PerformanceScore/Score/a_ Score1'), "aria-expanded", FailureHandling.OPTIONAL).equals("null"))){

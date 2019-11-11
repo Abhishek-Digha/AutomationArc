@@ -22,11 +22,12 @@ public class ReusableMethodsAnalytics extends BaseClass{
 
 	@Keyword
 	public void downloadAndVerifySurveyExportedData(){
-		
-		WebUI.click(findTestObject('Object Repository/Arc2.0 Locators/Project Navigation Locators/Performance'))
-		WebUI.waitForAngularLoad(GlobalVariable.minAngularWait)
-		WebUI.click(findTestObject('PerformanceScore/Score/TotalPerformanceScore'))
-		WebUI.scrollToElement(findTestObject('Object Repository/Analytics/ExportSurveyDataButtonInAnalytics'), 5)
+		/*WebUI.delay(5)
+		 WebUI.click(findTestObject('Page_Arc dashboard/a_Projects'))
+		 WebUI.scrollToElement(findTestObject('Object Repository/Analytics/ClickOnAnalytics'), 3)
+		 WebUI.click(findTestObject('Object Repository/Analytics/ClickOnAnalytics'))*/
+		WebUI.click(findTestObject('Object Repository/Analytics/ClickOnAnalyticsTotal'))
+		WebUI.scrollToElement(findTestObject('Object Repository/Analytics/ExportSurveyDataButtonInAnalytics'), 4)
 		WebUI.click(findTestObject('Object Repository/Analytics/ExportSurveyDataButtonInAnalytics'))
 		WebUI.click(findTestObject('Object Repository/Analytics/ClickOnDowloadExportButton'))
 		WebUI.delay(4)
@@ -729,10 +730,6 @@ public class ReusableMethodsAnalytics extends BaseClass{
 		YearMonth ninemonthsAgo   = thisMonth.minusMonths(9)
 		YearMonth tenmonthsAgo = thisMonth.minusMonths(10)
 		YearMonth elevenmonthsAgo = thisMonth.minusMonths(11)
-		YearMonth twelvemonthsAgo = thisMonth.minusMonths(12)
-		
-		println thisMonth
-		println lastmonth
 
 		String thisMonths    = thisMonth.format(monthYearFormatter)
 		String lastMonth    = lastmonth.format(monthYearFormatter)
@@ -750,7 +747,6 @@ public class ReusableMethodsAnalytics extends BaseClass{
 
 		String currentMonth = WebUI.getText(findTestObject('Analytics/Gra/currentMonth'))
 		WebUI.verifyMatch(thisMonths, currentMonth, false)
-		
 
 		String lastmonths = WebUI.getText(findTestObject('Analytics/Gra/lastMonth'))
 		WebUI.verifyMatch(lastMonth,lastmonths, false)

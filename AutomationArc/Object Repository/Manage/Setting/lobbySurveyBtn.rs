@@ -6,12 +6,11 @@
    <elementGuidId>dc89d048-5c5d-42d3-9025-23e2dcb3badf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//*[@ng-class=&quot;access != 'CRUD' ? 'not-active' : ''&quot;])[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//*[@class=&quot;switchery switchery-small switchery-default&quot;])[1]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

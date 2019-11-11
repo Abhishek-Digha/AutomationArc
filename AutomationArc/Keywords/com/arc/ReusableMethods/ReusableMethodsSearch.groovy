@@ -47,9 +47,6 @@ public class ReusableMethodsSearch extends BaseClass{
 	}
 
 	public void navigationSearch(){
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Arc2.0 Locators/SearchBar_Locators/Search_Icon'), GlobalVariable.minAngularWait)
-		WebUI.waitForElementVisible(findTestObject('Object Repository/Arc2.0 Locators/SearchBar_Locators/Search_Icon'), GlobalVariable.minAngularWait)
-		WebUI.click(findTestObject('Object Repository/Arc2.0 Locators/SearchBar_Locators/Search_Icon'))
 		WebUI.waitForAngularLoad(GlobalVariable.minAngularWait,FailureHandling.OPTIONAL)
 		WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Arc dashboard/input_searchBar1'),5)
 		WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Arc dashboard/input_searchBar1'),5)
@@ -58,7 +55,6 @@ public class ReusableMethodsSearch extends BaseClass{
 		WebUI.delay(1)
 		WebUI.waitForAngularLoad(GlobalVariable.minAngularWait,FailureHandling.OPTIONAL)
 	}
-	
 	@Keyword
 	public void searchProgram(String projectID) {
 
@@ -77,7 +73,7 @@ public class ReusableMethodsSearch extends BaseClass{
 		println nuberOfProjects
 
 		WebUI.delay(1)
-		WebUI.verifyMatch(nuberOfProjects,'Project(s) - 1', false)
+		WebUI.verifyMatch(nuberOfProjects,'Project (1 project)', false)
 		WebUI.delay(1)
 		WebUI.waitForAngularLoad(GlobalVariable.minAngularWait)
 
@@ -104,7 +100,7 @@ public class ReusableMethodsSearch extends BaseClass{
 		//	WebUI.waitForElementPresent(findTestObject('Page_Arc dashboard/no_Project (1 project)'),3)
 		String nuberOfProjects = WebUI.getText(findTestObject('Page_Arc dashboard/no_Project (1 project)'))
 		println nuberOfProjects
-		WebUI.verifyMatch(nuberOfProjects,'Project(s) - 1', false)
+		WebUI.verifyMatch(nuberOfProjects,'Project (1 project)', false)
 		WebUI.waitForAngularLoad(GlobalVariable.minAngularWait)
 		//WebUI.delay(2)
 		WebUI.click(findTestObject('Object Repository/Page_Arc dashboard/search_Result'))

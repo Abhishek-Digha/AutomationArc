@@ -7,15 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@ng-model=&quot;formdata.name&quot;]</value>
+         <value>//input[@id = 'project_name' and @name = 'name']</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//input[@id = 'project_name' and @name = 'name']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#app > div:nth-child(3) > nav > div > h4</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,15 +6,11 @@
    <elementGuidId>fc8fb9db-0a8f-4fc8-8dd6-fc61f4c7752d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[(text() = '   Score Version' or . = 'Score Version')]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//a[(text() = '   Score Version' or . = '   Score Version')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

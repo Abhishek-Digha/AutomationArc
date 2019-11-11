@@ -6,16 +6,12 @@
    <elementGuidId>7abb8ba7-c8d9-4d04-a492-f0522752a119</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//a[(text() = 'Municipality supplied reclaimed water
                                                             
                                                         ' or . = 'Municipality supplied reclaimed water
                                                             
-                                                        ') and @ref_element = 'Object Repository/DataInput/CreateMeterBuilding/iframe_datainput-widget']</value>
+                                                        ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -40,7 +36,8 @@
       <name>text</name>
       <type>Main</type>
       <value>Municipality supplied reclaimed water
-                                                                </value>
+                                                            
+                                                        </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

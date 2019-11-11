@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id='datainput-widget'] | //*[@id=&quot;arcWidget&quot;]/iframe | //*[@id=&quot;content&quot;]//iframe[1]</value>
+         <value>//*[@id='datainput-widget'] | //*[@id=&quot;arcWidget&quot;]/iframe</value>
       </entry>
       <entry>
          <key>BASIC</key>

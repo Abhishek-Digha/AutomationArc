@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@class = 'col-md-1 col-xs-1 total-score' and (text() = '100' or . = '100')])[2]</value>
+         <value>//*[@class = 'col-md-1 col-xs-1 text-right total-score w50px' and (text() = '0' or . = '0')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

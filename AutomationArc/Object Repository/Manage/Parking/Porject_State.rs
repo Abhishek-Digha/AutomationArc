@@ -9,12 +9,8 @@
          <key>BASIC</key>
          <value>//input[@ng-model = 'state']</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#content > div.static_info.ng-scope > div:nth-child(1) > div:nth-child(4) > div.value.ng-binding</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

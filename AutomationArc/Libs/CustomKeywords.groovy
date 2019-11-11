@@ -1756,16 +1756,6 @@ def static "com.arc.ReusableMethods.ReusableMethodsPayment.paymentRegistration"(
          , 	paymentMode)
 }
 
-def static "com.arc.ReusableMethods.ReusableMethodsPayment.paymentRegistrationParking"(
-    	String sheetName	
-     , 	int rowNum	
-     , 	String paymentMode	) {
-    (new com.arc.ReusableMethods.ReusableMethodsPayment()).paymentRegistrationParking(
-        	sheetName
-         , 	rowNum
-         , 	paymentMode)
-}
-
 def static "com.arc.ReusableMethods.ReusableMethodsPayment.regPaymentUsingPromocode"(
     	String sheetName	
      , 	int rowNum	) {
@@ -2094,22 +2084,6 @@ def static "com.arc.ReusableMethods.ReusableMethodsMeasuresParking.toolTip"() {
 
 def static "com.arc.ReusableMethods.ReusableMethodsMeasuresParking.permissionRequestsTeamMan"() {
     (new com.arc.ReusableMethods.ReusableMethodsMeasuresParking()).permissionRequestsTeamMan()
-}
-
-def static "com.katalon.plugin.keyword.calendar.SetDateCalendarKeyword.setDate"(
-    	TestObject to	
-     , 	int day	
-     , 	int month	
-     , 	int year	
-     , 	int slideTimeOut	
-     , 	FailureHandling flowControl	) {
-    (new com.katalon.plugin.keyword.calendar.SetDateCalendarKeyword()).setDate(
-        	to
-         , 	day
-         , 	month
-         , 	year
-         , 	slideTimeOut
-         , 	flowControl)
 }
 
 def static "com.arc.BaseClass.CommonMethod.clickCancel"() {
@@ -4344,20 +4318,12 @@ def static "com.arc.ReusableMethods.ResuableMethodsPerformanceScore.verifyComple
     (new com.arc.ReusableMethods.ResuableMethodsPerformanceScore()).verifyCompleteScoreSection()
 }
 
-def static "com.arc.ReusableMethods.ResuableMethodsPerformanceScore.totalPerformanceScoreUIAllFieldVerificationOtherNone"() {
-    (new com.arc.ReusableMethods.ResuableMethodsPerformanceScore()).totalPerformanceScoreUIAllFieldVerificationOtherNone()
-}
-
 def static "com.arc.ReusableMethods.ResuableMethodsPerformanceScore.totalPerformanceScoreUIAllFieldVerification"() {
     (new com.arc.ReusableMethods.ResuableMethodsPerformanceScore()).totalPerformanceScoreUIAllFieldVerification()
 }
 
 def static "com.arc.ReusableMethods.ResuableMethodsPerformanceScore.individualScoreUIAllFieldVerificationCityV3"() {
     (new com.arc.ReusableMethods.ResuableMethodsPerformanceScore()).individualScoreUIAllFieldVerificationCityV3()
-}
-
-def static "com.arc.ReusableMethods.ResuableMethodsPerformanceScore.individualScoreUIAllFieldVerificationOtherNone"() {
-    (new com.arc.ReusableMethods.ResuableMethodsPerformanceScore()).individualScoreUIAllFieldVerificationOtherNone()
 }
 
 def static "com.arc.ReusableMethods.ResuableMethodsPerformanceScore.individualScoreUIAllFieldVerification"() {

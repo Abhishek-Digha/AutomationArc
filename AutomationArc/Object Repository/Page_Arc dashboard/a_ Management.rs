@@ -9,12 +9,8 @@
          <key>BASIC</key>
          <value>//a[(text() = '  Management' or . = '  Management')]</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//a[(text() = '  Management' or . = 'Management')]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

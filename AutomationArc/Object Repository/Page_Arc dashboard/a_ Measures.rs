@@ -4,17 +4,7 @@
    <name>a_ Measures</name>
    <tag></tag>
    <elementGuidId>655427fa-eaf1-400a-889a-a9b2f0790b01</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[(text() = '   Measures   ' or . = '   Measures   ')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[(text() = 'Measures' or . = 'Measures')]</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

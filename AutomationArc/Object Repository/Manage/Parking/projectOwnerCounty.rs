@@ -9,12 +9,8 @@
          <key>BASIC</key>
          <value>//*[@ng-model = 'manageEntityCountry']</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#content > div.static_info.ng-scope > div.w50p.ng-scope > div:nth-child(3) > div.value.ng-binding</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

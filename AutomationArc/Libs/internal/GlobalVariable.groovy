@@ -108,10 +108,7 @@ Profile STG-CA : Explicit Wait Timeout
 Profile STG-CN : Explicit Wait Timeout
 Profile STG-IND : Explicit Wait Timeout
 Profile STG-US-P1 : Explicit Wait Timeout
-Profile STG-US-P2 : Explicit Wait Timeout
-Profile STGv2-US-P1 : Explicit Wait Timeout
-Profile STGv2-US-P2 : Explicit Wait Timeout
-Profile STGv2-US-P3 : Explicit Wait Timeout</p>
+Profile STG-US-P2 : Explicit Wait Timeout</p>
      */
     public static Object timeOut
      
@@ -134,10 +131,7 @@ Profile STG-CA : Adding canada projects
 Profile STG-CN : Adding china projects
 Profile STG-IND : Adding India projects
 Profile STG-US-P1 : Adding US projects
-Profile STG-US-P2 : Adding US projects
-Profile STGv2-US-P1 : Adding US projects
-Profile STGv2-US-P2 : Adding US projects
-Profile STGv2-US-P3 : Adding US projects</p>
+Profile STG-US-P2 : Adding US projects</p>
      */
     public static Object BuildingSheet
      
@@ -155,10 +149,7 @@ Profile STG-CA : Adding new team member
 Profile STG-CN : Adding new team member 
 Profile STG-IND : Adding new team member 
 Profile STG-US-P1 : Adding new team member 
-Profile STG-US-P2 : Adding new team member 
-Profile STGv2-US-P1 : Adding new team member 
-Profile STGv2-US-P2 : Adding new team member 
-Profile STGv2-US-P3 : Adding new team member </p>
+Profile STG-US-P2 : Adding new team member </p>
      */
     public static Object BuildingTeam
      
@@ -176,10 +167,7 @@ Profile STG-CA : Adding Credit Card payment details
 Profile STG-CN : Adding Credit Card payment details 
 Profile STG-IND : Adding Credit Card payment details 
 Profile STG-US-P1 : Adding Credit Card payment details 
-Profile STG-US-P2 : Adding Credit Card payment details 
-Profile STGv2-US-P1 : Adding Credit Card payment details 
-Profile STGv2-US-P2 : Adding Credit Card payment details 
-Profile STGv2-US-P3 : Adding Credit Card payment details </p>
+Profile STG-US-P2 : Adding Credit Card payment details </p>
      */
     public static Object CCPayment
      
@@ -273,10 +261,7 @@ Profile QAS-US-P1 : old score version project of Building
 Profile QAS-US-P2 : old score version project of Building
 Profile QAS-US-User2 : old score version project of Building
 Profile STG-US-P1 : old score version of Buiding
-Profile STG-US-P2 : old score version of Buiding
-Profile STGv2-US-P1 : old score version of Buiding
-Profile STGv2-US-P2 : old score version of Buiding
-Profile STGv2-US-P3 : old score version of Buiding</p>
+Profile STG-US-P2 : old score version of Buiding</p>
      */
     public static Object rowNumNine
      
@@ -318,10 +303,7 @@ Profile QAS-US-P1 : Old score version project of Transit
 Profile QAS-US-P2 : Old score version project of Transit
 Profile QAS-US-User2 : Old score version project of Transit
 Profile STG-US-P1 : old score version of Transit
-Profile STG-US-P2 : old score version of Transit
-Profile STGv2-US-P1 : old score version of Transit
-Profile STGv2-US-P2 : old score version of Transit
-Profile STGv2-US-P3 : old score version of Transit</p>
+Profile STG-US-P2 : old score version of Transit</p>
      */
     public static Object rowNumTen
      
@@ -351,10 +333,7 @@ Profile DEV-US-P2 : Pricing sheet
 Profile QAS-US-P1 : Pricing sheet for checking the pricing for different countries.
 Profile QAS-US-P2 : Pricing sheet for checking the pricing for different countries.
 Profile STG-US-P1 : Pricing Sheet
-Profile STG-US-P2 : Pricing Sheet
-Profile STGv2-US-P1 : Pricing Sheet
-Profile STGv2-US-P2 : Pricing Sheet
-Profile STGv2-US-P3 : Pricing Sheet</p>
+Profile STG-US-P2 : Pricing Sheet</p>
      */
     public static Object pricingSheet
      
@@ -382,10 +361,7 @@ Profile STGv2-US-P3 : Pricing Sheet</p>
      * <p>Profile QAS-US-P1 : Project team admin and arc administrator name
 Profile QAS-US-P2 : Project team admin and arc administrator name
 Profile STG-US-P1 : Project team admin and arc administrator name
-Profile STG-US-P2 : Project team admin and arc administrator name
-Profile STGv2-US-P1 : Project team admin and arc administrator name
-Profile STGv2-US-P2 : Project team admin and arc administrator name
-Profile STGv2-US-P3 : Project team admin and arc administrator name</p>
+Profile STG-US-P2 : Project team admin and arc administrator name</p>
      */
     public static Object projectTeamAdminAndArcAdminName
      
@@ -393,10 +369,7 @@ Profile STGv2-US-P3 : Project team admin and arc administrator name</p>
      * <p>Profile QAS-US-P1 : Project team admin and arc administrator email
 Profile QAS-US-P2 : Project team admin and arc administrator email
 Profile STG-US-P1 : Project team admin and arc administrator email id
-Profile STG-US-P2 : Project team admin and arc administrator email id
-Profile STGv2-US-P1 : Project team admin and arc administrator email id
-Profile STGv2-US-P2 : Project team admin and arc administrator email id
-Profile STGv2-US-P3 : Project team admin and arc administrator email id</p>
+Profile STG-US-P2 : Project team admin and arc administrator email id</p>
      */
     public static Object projectTeamAdminAndArcAdminEmail
      
@@ -422,10 +395,7 @@ Profile QAS-US-P1 : Team Member QAS
 Profile QAS-US-P2 : Team Member QAS
 Profile QAS-US-User2 : Team Member QAS
 Profile STG-US-P1 : Team Member STG
-Profile STG-US-P2 : Team Member STG
-Profile STGv2-US-P1 : Team Member STG
-Profile STGv2-US-P2 : Team Member STG
-Profile STGv2-US-P3 : Team Member STG</p>
+Profile STG-US-P2 : Team Member STG</p>
      */
     public static Object TeamMember
      
@@ -433,10 +403,7 @@ Profile STGv2-US-P3 : Team Member STG</p>
      * <p>Profile DEV-US-P1 : Certified project
 Profile DEV-US-P2 : Certified project
 Profile STG-US-P1 : Certified project
-Profile STG-US-P2 : Certified project
-Profile STGv2-US-P1 : Certified project
-Profile STGv2-US-P2 : Certified project
-Profile STGv2-US-P3 : Certified project</p>
+Profile STG-US-P2 : Certified project</p>
      */
     public static Object rowNumTwentyOne
      
@@ -444,10 +411,7 @@ Profile STGv2-US-P3 : Certified project</p>
      * <p>Profile DEV-US-P1 : Certified Transit Abovegroun Project
 Profile DEV-US-P2 : Certified Transit Abovegroun Project
 Profile STG-US-P1 : Certified Transit Abovegroun Project
-Profile STG-US-P2 : Certified Transit Abovegroun Project
-Profile STGv2-US-P1 : Certified Transit Abovegroun Project
-Profile STGv2-US-P2 : Certified Transit Abovegroun Project
-Profile STGv2-US-P3 : Certified Transit Abovegroun Project</p>
+Profile STG-US-P2 : Certified Transit Abovegroun Project</p>
      */
     public static Object rowNumTwentyTwo
      
@@ -460,10 +424,7 @@ Profile STGv2-US-P3 : Certified Transit Abovegroun Project</p>
      * <p>Profile DEV-US-P1 : New Added Project
 Profile DEV-US-P2 : New Added Project
 Profile STG-US-P1 : New Added Project
-Profile STG-US-P2 : New Added Project
-Profile STGv2-US-P1 : New Added Project
-Profile STGv2-US-P2 : New Added Project
-Profile STGv2-US-P3 : New Added Project</p>
+Profile STG-US-P2 : New Added Project</p>
      */
     public static Object rowNumTwentyThree
      
@@ -483,10 +444,7 @@ Profile QAS-US-User2 : Human Experience and Transportation</p>
      * <p>Profile DEV-US-P1 : payment via credit card
 Profile DEV-US-P2 : payment via credit card
 Profile STG-US-P1 : payment via credit card
-Profile STG-US-P2 : payment via credit card
-Profile STGv2-US-P1 : payment via credit card
-Profile STGv2-US-P2 : payment via credit card
-Profile STGv2-US-P3 : payment via credit card</p>
+Profile STG-US-P2 : payment via credit card</p>
      */
     public static Object cardPayment
      
@@ -598,9 +556,6 @@ Profile STGv2-US-P3 : payment via credit card</p>
         allVariables.put('STG-IND', allVariables['default'] + ['url' : 'http://www.stg.arconline.io/', 'userName' : 'Saurav@groupten.com', 'password' : 'LEEDg10', 'timeOut' : 40, 'env' : 'ARCDataTemplete/QasArcTest.xlsx', 'BuildingSheet' : 'BuildingIndiaProject', 'BuildingTeam' : 'BTeam', 'CCPayment' : 'Payment', 'rowNumTwo' : 2, 'rowNumThree' : 3, 'rowNumFour' : 4, 'rowNumFive' : 5, 'rowNumSix' : 6, 'CitySheet' : 'CityIndiaProject', 'CommunitySheet' : 'CommunityIndiaProject', 'CDataInput' : 'CDataInput', 'rowNumSeven' : 7, 'rowNumEight' : 8, 'PortfoliosSheet' : 'INDPortfolioSTG', 'BDataInput' : 'BDataInput', 'adminUrl' : 'stg.app.arconline.io/admin', 'adminUserName' : 'stggbciadmin@gbci.com', 'adminPassword' : 'initpass', 'rowNumNine' : 9, 'ExcelTemplateData' : 'ExcelTemplateDataVerificationSheet.xlsx', 'TemplateEnergyData' : 'Energy', 'TemplateWaterData' : 'Water', 'TemplateWasteData' : 'Waste', 'AllProjectUrl' : 'https://stg.app.arconline.io/app/projects/my-projects/?project-type=all', 'Result' : 'Result', 'rowNumTen' : 10, 'rowNumEleven' : 11, 'TeamMemberPassword' : 'initpass', 'creditCard' : 'creditCard', 'checkPayment' : 'check', 'pricingSheet' : 'Pricing', 'LEEDURL' : 'https://leedonline-stg.usgbc.org/', 'UserId' : '0010544805', 'teamMemberName' : 'RoshanOne Mishra', 'TeamMember2' : 'usgbcarc2@gmail.com', 'projectTeamAdminAndArcAdminName' : 'Saurav K', 'projectTeamAdminAndArcAdminEmail' : 'saurav@groupten.com', 'LEEDData' : 'LEEDData', 'appUrl' : 'https://stg.app.arconline.io', 'downloadDir' : '/var/lib/jenkins/Downloads/', 'environment' : 'stg', 'TeamMember' : 'usgbcarc1@gmail.com', 'TemplateHE' : 'HumanExp', 'teamMemName' : 'Saurav K', 'minAngularWait' : 60, 'avgAngularWait' : 120, 'maxAngularWait' : 240, 'Promocode' : 'Promocode', 'TemplateCityDI' : 'CityDI'])
         allVariables.put('STG-US-P1', allVariables['default'] + ['url' : 'http://www.stg.arconline.io/', 'userName' : 'Saurav@groupten.com', 'password' : 'LEEDg10', 'timeOut' : 40, 'env' : 'ARCDataTemplete/QasArcTest.xlsx', 'BuildingSheet' : 'USBuildingProject', 'BuildingTeam' : 'BTeam', 'CCPayment' : 'Payment', 'rowNumTwo' : 2, 'rowNumThree' : 3, 'rowNumFour' : 4, 'rowNumFive' : 5, 'rowNumSix' : 6, 'CitySheet' : 'USCityProject', 'CommunitySheet' : 'USCommunityProject', 'CDataInput' : 'CDataInput', 'PortfoliosSheet' : 'PortfolioSTG', 'rowNumSeven' : 7, 'rowNumEight' : 8, 'BDataInput' : 'BDataInput', 'TeamMember' : 'usgbcarc1@gmail.com', 'adminUrl' : 'stg.app.arconline.io/admin', 'adminUserName' : 'stggbciadmin@gbci.com', 'adminPassword' : 'initpass', 'rowNumTwentyOne' : 21, 'rowNumTwentyTwo' : 22, 'notCertified' : 'notCertified', 'rowNumTwentyThree' : 23, 'rowNumNine' : 9, 'teamMemName' : 'Saurav K', 'ExcelTemplateData' : 'ExcelTemplateDataVerificationSheet.xlsx', 'TemplateEnergyData' : 'Energy', 'TemplateWaterData' : 'Water', 'TeamMemberPassword' : 'initpass', 'TemplateWasteData' : 'Waste', 'rowNumTen' : 10, 'AllProjectUrl' : 'https://stg.app.arconline.io/app/projects/my-projects/?project-type=all', 'TemplateHE' : 'HumanExp', 'cardPayment' : 'creditCard', 'checkPayment' : 'check', 'appUrl' : 'https://stg.app.arconline.io', 'LEEDURL' : 'https://leedonline-stg.usgbc.org/', 'creditCard' : 'creditCard', 'pricingSheet' : 'Pricing', 'LEEDData' : 'LEEDData', 'projectTeamAdminAndArcAdminName' : 'Saurav K', 'projectTeamAdminAndArcAdminEmail' : 'saurav@groupten.com', 'UserId' : '0010544805', 'rowNumEleven' : 11, 'TeamMember2' : 'usgbcarc2@gmail.com', 'teamMemberName' : 'RoshanOne Mishra', 'TestCount' : 0, 'Result' : 'Result', 'environment' : 'stg', 'downloadDir' : '/var/lib/jenkins/Downloads/', 'rowNumTwelve' : 12, 'rowNumThirteen' : 13, 'rowNumFourteen' : 14, 'rowNumFifteen' : 15, 'minAngularWait' : 60, 'avgAngularWait' : 120, 'maxAngularWait' : 240, 'AllProjectUrlLeedOnline' : 'https://leedonline-stg.usgbc.org/projects', 'Promocode' : 'Promocode', 'promocodeRegistrationHundred' : 'STGPromocodeHundred', 'promocodeRegistrationFifty' : 'STGPromocodesFifty', 'promocodeReviewHundred' : 'STGPromocodeHundredReview', 'promocodeReviewFifty' : 'STGPromocodesFiftyReview', 'surveyLinkDashboard' : 'https://stg.app.arconline.io/app/project/1000168973/survey/v2/?key=3d7IAcPLYxKghqFyb40sLaDh&language=en', 'TemplateCityDI' : 'CityDI'])
         allVariables.put('STG-US-P2', allVariables['default'] + ['url' : 'http://www.stg.arconline.io/', 'userName' : 'akumar@usgbc.org', 'password' : 'initpass', 'timeOut' : 40, 'env' : 'ARCDataTemplete/QasArcTest.xlsx', 'BuildingSheet' : 'USBuildingProject', 'BuildingTeam' : 'BTeam', 'CCPayment' : 'Payment', 'rowNumTwo' : 2, 'rowNumThree' : 3, 'rowNumFour' : 4, 'rowNumFive' : 5, 'rowNumSix' : 6, 'CitySheet' : 'USCityProject', 'CommunitySheet' : 'USCommunityProject', 'CDataInput' : 'CDataInput', 'PortfoliosSheet' : 'PortfolioSTG', 'rowNumSeven' : 7, 'rowNumEight' : 8, 'BDataInput' : 'BDataInput', 'TeamMember' : 'usgbcarc1@gmail.com', 'adminUrl' : 'stg.app.arconline.io/admin', 'adminUserName' : 'stggbciadmin@gbci.com', 'adminPassword' : 'initpass', 'rowNumTwentyOne' : 21, 'rowNumTwentyTwo' : 22, 'notCertified' : 'notCertified', 'rowNumTwentyThree' : 23, 'rowNumNine' : 9, 'teamMemName' : 'Saurav K', 'ExcelTemplateData' : 'ExcelTemplateDataVerificationSheet.xlsx', 'TemplateEnergyData' : 'Energy', 'TemplateWaterData' : 'Water', 'TeamMemberPassword' : 'initpass', 'TemplateWasteData' : 'Waste', 'rowNumTen' : 10, 'AllProjectUrl' : 'https://stg.app.arconline.io/app/projects/my-projects/?project-type=all', 'TemplateHE' : 'HumanExp', 'cardPayment' : 'creditCard', 'checkPayment' : 'check', 'appUrl' : 'https://stg.app.arconline.io', 'LEEDURL' : 'https://leedonline-stg.usgbc.org/', 'creditCard' : 'creditCard', 'pricingSheet' : 'Pricing', 'LEEDData' : 'LEEDData', 'projectTeamAdminAndArcAdminName' : 'Saurav K', 'projectTeamAdminAndArcAdminEmail' : 'akumar@usgbc.org', 'UserId' : '0010545526', 'rowNumEleven' : 11, 'TeamMember2' : 'usgbcarc2@gmail.com', 'Result' : 'Result', 'teamMemberName' : 'RoshanOne Mishra', 'downloadDir' : '/var/lib/jenkins/Downloads/', 'minAngularWait' : 60, 'avgAngularWait' : 120, 'maxAngularWait' : 240, 'AllProjectUrlLeedOnline' : 'https://leedonline-stg.usgbc.org/projects', 'Promocode' : 'Promocode', 'promocodeRegistrationHundred' : 'STGPromocodeHundred', 'promocodeRegistrationFifty' : 'STGPromocodesFifty', 'promocodeReviewHundred' : 'STGPromocodeHundredReview', 'promocodeReviewFifty' : 'STGPromocodesFiftyReview', 'surveyLinkDashboard' : 'https://stg.app.arconline.io/app/project/1000168529/survey/v2/?key=aP2V381iCMmHEYJOnTpPLnoz&language=en', 'TemplateCityDI' : 'CityDI'])
-        allVariables.put('STGv2-US-P1', allVariables['default'] + ['url' : 'https://stg-v2.app.arconline.io', 'userName' : 'devarcbeta2@gmail.com', 'password' : 'initpass', 'timeOut' : 40, 'env' : 'ARCDataTemplete/QasArcTest.xlsx', 'BuildingSheet' : 'USBuildingProject', 'BuildingTeam' : 'BTeam', 'CCPayment' : 'Payment', 'rowNumTwo' : 2, 'rowNumThree' : 3, 'rowNumFour' : 4, 'rowNumFive' : 5, 'rowNumSix' : 6, 'CitySheet' : 'USCityProject', 'CommunitySheet' : 'USCommunityProject', 'CDataInput' : 'CDataInput', 'PortfoliosSheet' : 'PortfolioSTG', 'rowNumSeven' : 7, 'rowNumEight' : 8, 'BDataInput' : 'BDataInput', 'TeamMember' : 'usgbcarc1@gmail.com', 'adminUrl' : 'https://stg.app.arconline.io/admin', 'adminUserName' : 'stggbciadmin@gbci.com', 'adminPassword' : 'initpass', 'rowNumTwentyOne' : 21, 'rowNumTwentyTwo' : 22, 'notCertified' : 'notCertified', 'rowNumTwentyThree' : 23, 'rowNumNine' : 9, 'teamMemName' : 'Saurav K', 'ExcelTemplateData' : 'ExcelTemplateDataVerificationSheet.xlsx', 'TemplateEnergyData' : 'Energy', 'TemplateWaterData' : 'Water', 'TeamMemberPassword' : 'initpass', 'TemplateWasteData' : 'Waste', 'rowNumTen' : 10, 'AllProjectUrl' : 'https://stg-v2.app.arconline.io/app/projects/my-projects/?project-type=all', 'TemplateHE' : 'HumanExp', 'cardPayment' : 'creditCard', 'checkPayment' : 'check', 'appUrl' : 'https://stg-v2.app.arconline.io', 'LEEDURL' : 'https://leedonline-stg.usgbc.org/', 'creditCard' : 'creditCard', 'pricingSheet' : 'Pricing', 'LEEDData' : 'LEEDData', 'projectTeamAdminAndArcAdminName' : 'Saurav K', 'projectTeamAdminAndArcAdminEmail' : 'saurav@groupten.com', 'UserId' : '0010544805', 'rowNumEleven' : 11, 'TeamMember2' : 'usgbcarc2@gmail.com', 'teamMemberName' : 'RoshanOne Mishra', 'TestCount' : 0, 'Result' : 'Result', 'environment' : 'stg', 'downloadDir' : '/var/lib/jenkins/Downloads/', 'rowNumTwelve' : 12, 'rowNumThirteen' : 13, 'rowNumFourteen' : 14, 'rowNumFifteen' : 15, 'minAngularWait' : 60, 'avgAngularWait' : 120, 'maxAngularWait' : 240, 'AllProjectUrlLeedOnline' : 'https://leedonline-stg.usgbc.org/projects', 'Promocode' : 'Promocode', 'promocodeRegistrationHundred' : 'STGPromocodeHundred', 'promocodeRegistrationFifty' : 'STGPromocodesFifty', 'promocodeReviewHundred' : 'STGPromocodeHundredReview', 'promocodeReviewFifty' : 'STGPromocodesFiftyReview', 'surveyLinkDashboard' : 'https://stg.app.arconline.io/app/project/1000168973/survey/v2/?key=3d7IAcPLYxKghqFyb40sLaDh&language=en', 'TemplateCityDI' : 'CityDI'])
-        allVariables.put('STGv2-US-P2', allVariables['default'] + ['url' : 'https://stg-v2.app.arconline.io', 'userName' : 'devarcbeta3@gmail.com', 'password' : 'initpass', 'timeOut' : 40, 'env' : 'ARCDataTemplete/QasArcTest.xlsx', 'BuildingSheet' : 'USBuildingProject', 'BuildingTeam' : 'BTeam', 'CCPayment' : 'Payment', 'rowNumTwo' : 2, 'rowNumThree' : 3, 'rowNumFour' : 4, 'rowNumFive' : 5, 'rowNumSix' : 6, 'CitySheet' : 'USCityProject', 'CommunitySheet' : 'USCommunityProject', 'CDataInput' : 'CDataInput', 'PortfoliosSheet' : 'PortfolioSTG', 'rowNumSeven' : 7, 'rowNumEight' : 8, 'BDataInput' : 'BDataInput', 'TeamMember' : 'usgbcarc1@gmail.com', 'adminUrl' : 'https://stg.app.arconline.io/admin', 'adminUserName' : 'stggbciadmin@gbci.com', 'adminPassword' : 'initpass', 'rowNumTwentyOne' : 21, 'rowNumTwentyTwo' : 22, 'notCertified' : 'notCertified', 'rowNumTwentyThree' : 23, 'rowNumNine' : 9, 'teamMemName' : 'Saurav K', 'ExcelTemplateData' : 'ExcelTemplateDataVerificationSheet.xlsx', 'TemplateEnergyData' : 'Energy', 'TemplateWaterData' : 'Water', 'TeamMemberPassword' : 'initpass', 'TemplateWasteData' : 'Waste', 'rowNumTen' : 10, 'AllProjectUrl' : 'https://stg-v2.app.arconline.io/app/projects/my-projects/?project-type=all', 'TemplateHE' : 'HumanExp', 'cardPayment' : 'creditCard', 'checkPayment' : 'check', 'appUrl' : 'https://stg-v2.app.arconline.io', 'LEEDURL' : 'https://leedonline-stg.usgbc.org/', 'creditCard' : 'creditCard', 'pricingSheet' : 'Pricing', 'LEEDData' : 'LEEDData', 'projectTeamAdminAndArcAdminName' : 'Saurav K', 'projectTeamAdminAndArcAdminEmail' : 'devarcbeta3@gmail.com', 'UserId' : '0010544805', 'rowNumEleven' : 11, 'TeamMember2' : 'usgbcarc2@gmail.com', 'teamMemberName' : 'RoshanOne Mishra', 'TestCount' : 0, 'Result' : 'Result', 'environment' : 'stg', 'downloadDir' : '/var/lib/jenkins/Downloads/', 'rowNumTwelve' : 12, 'rowNumThirteen' : 13, 'rowNumFourteen' : 14, 'rowNumFifteen' : 15, 'minAngularWait' : 60, 'avgAngularWait' : 120, 'maxAngularWait' : 240, 'AllProjectUrlLeedOnline' : 'https://leedonline-stg.usgbc.org/projects', 'Promocode' : 'Promocode', 'promocodeRegistrationHundred' : 'STGPromocodeHundred', 'promocodeRegistrationFifty' : 'STGPromocodesFifty', 'promocodeReviewHundred' : 'STGPromocodeHundredReview', 'promocodeReviewFifty' : 'STGPromocodesFiftyReview', 'surveyLinkDashboard' : 'https://stg.app.arconline.io/app/project/1000168973/survey/v2/?key=3d7IAcPLYxKghqFyb40sLaDh&language=en', 'TemplateCityDI' : 'CityDI'])
-        allVariables.put('STGv2-US-P3', allVariables['default'] + ['url' : 'https://stg-v2.app.arconline.io', 'userName' : 'devarcbeta1@gmail.com', 'password' : 'initpass', 'timeOut' : 40, 'env' : 'ARCDataTemplete/QasArcTest.xlsx', 'BuildingSheet' : 'USBuildingProject', 'BuildingTeam' : 'BTeam', 'CCPayment' : 'Payment', 'rowNumTwo' : 2, 'rowNumThree' : 3, 'rowNumFour' : 4, 'rowNumFive' : 5, 'rowNumSix' : 6, 'CitySheet' : 'USCityProject', 'CommunitySheet' : 'USCommunityProject', 'CDataInput' : 'CDataInput', 'PortfoliosSheet' : 'PortfolioSTG', 'rowNumSeven' : 7, 'rowNumEight' : 8, 'BDataInput' : 'BDataInput', 'TeamMember' : 'usgbcarc1@gmail.com', 'adminUrl' : 'https://stg.app.arconline.io/admin', 'adminUserName' : 'stggbciadmin@gbci.com', 'adminPassword' : 'initpass', 'rowNumTwentyOne' : 21, 'rowNumTwentyTwo' : 22, 'notCertified' : 'notCertified', 'rowNumTwentyThree' : 23, 'rowNumNine' : 9, 'teamMemName' : 'Saurav K', 'ExcelTemplateData' : 'ExcelTemplateDataVerificationSheet.xlsx', 'TemplateEnergyData' : 'Energy', 'TemplateWaterData' : 'Water', 'TeamMemberPassword' : 'initpass', 'TemplateWasteData' : 'Waste', 'rowNumTen' : 10, 'AllProjectUrl' : 'https://stg-v2.app.arconline.io/app/projects/my-projects/?project-type=all', 'TemplateHE' : 'HumanExp', 'cardPayment' : 'creditCard', 'checkPayment' : 'check', 'appUrl' : 'https://stg-v2.app.arconline.io', 'LEEDURL' : 'https://leedonline-stg.usgbc.org/', 'creditCard' : 'creditCard', 'pricingSheet' : 'Pricing', 'LEEDData' : 'LEEDData', 'projectTeamAdminAndArcAdminName' : 'Saurav K', 'projectTeamAdminAndArcAdminEmail' : 'saurav@groupten.com', 'UserId' : '0010544805', 'rowNumEleven' : 11, 'TeamMember2' : 'usgbcarc2@gmail.com', 'teamMemberName' : 'RoshanOne Mishra', 'TestCount' : 0, 'Result' : 'Result', 'environment' : 'stg', 'downloadDir' : '/var/lib/jenkins/Downloads/', 'rowNumTwelve' : 12, 'rowNumThirteen' : 13, 'rowNumFourteen' : 14, 'rowNumFifteen' : 15, 'minAngularWait' : 60, 'avgAngularWait' : 120, 'maxAngularWait' : 240, 'AllProjectUrlLeedOnline' : 'https://leedonline-stg.usgbc.org/projects', 'Promocode' : 'Promocode', 'promocodeRegistrationHundred' : 'STGPromocodeHundred', 'promocodeRegistrationFifty' : 'STGPromocodesFifty', 'promocodeReviewHundred' : 'STGPromocodeHundredReview', 'promocodeReviewFifty' : 'STGPromocodesFiftyReview', 'surveyLinkDashboard' : 'https://stg.app.arconline.io/app/project/1000168973/survey/v2/?key=3d7IAcPLYxKghqFyb40sLaDh&language=en', 'TemplateCityDI' : 'CityDI'])
         
         String profileName = RunConfiguration.getExecutionProfile()
         def selectedVariables = allVariables[profileName]

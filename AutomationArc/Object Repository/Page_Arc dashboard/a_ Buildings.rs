@@ -4,17 +4,7 @@
    <name>a_ Buildings</name>
    <tag></tag>
    <elementGuidId>fc698bb7-e13e-429e-b167-5daa499fd2cf</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[(text() = '   Buildings   ' or . = '   Buildings   ')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[(text() = '   Buildings   ' or . = 'Buildings')]</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

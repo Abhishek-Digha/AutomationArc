@@ -9,12 +9,8 @@
          <key>BASIC</key>
          <value>//*[(text() = '  Innovation' or . = '  Innovation')]</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[(text() = 'Innovation' or . = 'Innovation')]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

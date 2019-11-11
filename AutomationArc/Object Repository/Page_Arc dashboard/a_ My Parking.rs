@@ -4,17 +4,7 @@
    <name>a_ My Parking</name>
    <tag></tag>
    <elementGuidId>b13139c6-bbcc-4f24-a765-4e59b9c4d881</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@href=&quot;/app/projects/my-projects/?project-type=parksmart&quot;]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '/app/projects/my-projects/?project-type=parksmart' and (text() = '  My Parking' or . = '  My Parking')]</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

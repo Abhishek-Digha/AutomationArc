@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class=&quot;meterList--title ng-scope&quot;]</value>
+         <value>(//span[@class = 'meterList--title'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
